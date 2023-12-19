@@ -1,0 +1,1 @@
+enum MainTabBarSection { home, profile }

@@ -15,3 +15,7 @@ run_prod:
 run_prod_release:
 	@echo "╠ Running production - release mode"
 	@flutter run --flavor prod --target lib/main_prod.dart --dart-define=ENV_KEY=prod
+
+gen_l10n:
+	@echo "╠ Generate l10n"
+	@flutter pub run intl_utils:generate
